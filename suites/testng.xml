@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="org.examples.BasicAuthTest"/>
+            <class name="org.examples.HoverTest"/>
+            <class name="org.examples.SliderTest"/>
+            <class name="org.examples.BrokenImageTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

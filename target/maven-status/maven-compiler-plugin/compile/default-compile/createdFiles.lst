@@ -1,0 +1,7 @@
+org/example/pages/Page.class
+utilities/BaseInit.class
+org/example/pages/HoverPage.class
+org/example/pages/BasePage.class
+org/example/pages/SliderPage.class
+org/example/pages/BrokenImagePage.class
+org/example/pages/BasicAuthPage.class
