@@ -20,7 +20,6 @@ public class BaseInit {
     public String URL;
     public String expectedMessage;
     public String userName;
-    public String browserName;
     public String SLIDER_MIN_VALUE;
     public String SLIDER_MAX_VALUE;
 

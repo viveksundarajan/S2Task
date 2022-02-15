@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-15T14:36:38 CET" name="Suite" finished-at="2022-02-15T14:36:50 CET" duration-ms="11222">
+  <suite started-at="2022-02-15T18:26:31 CET" name="Suite" finished-at="2022-02-15T18:26:45 CET" duration-ms="13988">
     <groups>
     </groups>
-    <test started-at="2022-02-15T14:36:38 CET" name="Test" finished-at="2022-02-15T14:36:50 CET" duration-ms="11222">
+    <test started-at="2022-02-15T18:26:31 CET" name="Test" finished-at="2022-02-15T18:26:45 CET" duration-ms="13988">
       <class name="org.examples.BrokenImageTest">
-        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.BrokenImageTest@40a4337a]" started-at="2022-02-15T14:36:45 CET" name="invokeBrowser" finished-at="2022-02-15T14:36:46 CET" duration-ms="1124" status="PASS">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.BrokenImageTest@22555ebf]" started-at="2022-02-15T18:26:41 CET" name="invokeBrowser" finished-at="2022-02-15T18:26:42 CET" duration-ms="1076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="verifyBrokenImages()[pri:0, instance:org.examples.BrokenImageTest@40a4337a]" started-at="2022-02-15T14:36:46 CET" name="verifyBrokenImages" finished-at="2022-02-15T14:36:50 CET" duration-ms="3233" status="FAIL">
+        <test-method signature="verifyBrokenImages()[pri:0, instance:org.examples.BrokenImageTest@22555ebf]" started-at="2022-02-15T18:26:42 CET" name="verifyBrokenImages" finished-at="2022-02-15T18:26:45 CET" duration-ms="3398" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[images are broken expected [true] but found [false]]]>
@@ -67,13 +67,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBrokenImages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.BrokenImageTest@40a4337a]" started-at="2022-02-15T14:36:50 CET" name="tearDown" finished-at="2022-02-15T14:36:50 CET" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.BrokenImageTest@22555ebf]" started-at="2022-02-15T18:26:45 CET" name="tearDown" finished-at="2022-02-15T18:26:45 CET" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.examples.BrokenImageTest -->
-      <class name="org.examples.SliderTest">
-        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.SliderTest@6a6cb05c]" started-at="2022-02-15T14:36:42 CET" name="invokeBrowser" finished-at="2022-02-15T14:36:43 CET" duration-ms="1105" status="PASS">
+      <class name="org.examples.HoverTest">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.HoverTest@206a70ef]" started-at="2022-02-15T18:26:34 CET" name="invokeBrowser" finished-at="2022-02-15T18:26:36 CET" duration-ms="1101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,17 +84,38 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="verifySliderValues()[pri:0, instance:org.examples.SliderTest@6a6cb05c]" started-at="2022-02-15T14:36:43 CET" name="verifySliderValues" finished-at="2022-02-15T14:36:45 CET" duration-ms="2103" status="PASS">
+        <test-method signature="verifyHoverOnUser()[pri:0, instance:org.examples.HoverTest@206a70ef]" started-at="2022-02-15T18:26:36 CET" name="verifyHoverOnUser" finished-at="2022-02-15T18:26:37 CET" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoverOnUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.HoverTest@206a70ef]" started-at="2022-02-15T18:26:37 CET" name="tearDown" finished-at="2022-02-15T18:26:37 CET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.examples.HoverTest -->
+      <class name="org.examples.SliderTest">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.SliderTest@292b08d6]" started-at="2022-02-15T18:26:37 CET" name="invokeBrowser" finished-at="2022-02-15T18:26:39 CET" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="verifySliderValues()[pri:0, instance:org.examples.SliderTest@292b08d6]" started-at="2022-02-15T18:26:39 CET" name="verifySliderValues" finished-at="2022-02-15T18:26:41 CET" duration-ms="1989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySliderValues -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.SliderTest@6a6cb05c]" started-at="2022-02-15T14:36:45 CET" name="tearDown" finished-at="2022-02-15T14:36:45 CET" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.SliderTest@292b08d6]" started-at="2022-02-15T18:26:41 CET" name="tearDown" finished-at="2022-02-15T18:26:41 CET" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.examples.SliderTest -->
       <class name="org.examples.BasicAuthTest">
-        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.BasicAuthTest@702657cc]" started-at="2022-02-15T14:36:39 CET" name="invokeBrowser" finished-at="2022-02-15T14:36:40 CET" duration-ms="1555" status="PASS">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:org.examples.BasicAuthTest@c730b35]" started-at="2022-02-15T18:26:31 CET" name="invokeBrowser" finished-at="2022-02-15T18:26:33 CET" duration-ms="1523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +126,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="verifyBasicAuth()[pri:0, instance:org.examples.BasicAuthTest@702657cc]" started-at="2022-02-15T14:36:40 CET" name="verifyBasicAuth" finished-at="2022-02-15T14:36:42 CET" duration-ms="1816" status="PASS">
+        <test-method signature="verifyBasicAuth()[pri:0, instance:org.examples.BasicAuthTest@c730b35]" started-at="2022-02-15T18:26:33 CET" name="verifyBasicAuth" finished-at="2022-02-15T18:26:34 CET" duration-ms="1685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBasicAuth -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.BasicAuthTest@702657cc]" started-at="2022-02-15T14:36:42 CET" name="tearDown" finished-at="2022-02-15T14:36:42 CET" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.examples.BasicAuthTest@c730b35]" started-at="2022-02-15T18:26:34 CET" name="tearDown" finished-at="2022-02-15T18:26:34 CET" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
